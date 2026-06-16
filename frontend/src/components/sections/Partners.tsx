@@ -5,8 +5,11 @@ import { SectionHeading } from "../ui-blocks/SectionHeading";
 // puis remplacer `initials` par une <img> sur ce partenaire.
 export const PARTNERS = [
   { name: "Bdom Kikwit", initials: "BK", url: "#" },
-  { name: "Champions Motor", initials: "CM", url: "#" },
+  { name: "Champion Motors", initials: "CM", url: "#" },
   { name: "Hôpital Général de Kisantu", initials: "HGK", url: "#" },
+  { name: "Hôpital Saint joseph de Kinshasa", initials: "HGRSJ", url: "#" },
+  { name: "Auto All", initials: "AM", url: "#" },
+
 ];
 
 export function Partners() {

@@ -37,8 +37,8 @@ export function Footer() {
           <h4 className="text-sm font-semibold tracking-wider uppercase">Contact</h4>
           <ul className="mt-4 space-y-3 text-sm text-foreground/70">
             <li className="flex items-start gap-2"><MapPin size={16} className="mt-0.5 text-accent" /> Kinshasa, RDC</li>
-            <li className="flex items-start gap-2"><Mail size={16} className="mt-0.5 text-accent" /> contact@samasoft.cd</li>
-            <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 text-accent" /> +243 000 000 000</li>
+            <li className="flex items-start gap-2"><Mail size={16} className="mt-0.5 text-accent" /> samasoft40@gmail.com </li>
+            <li className="flex items-start gap-2"><Phone size={16} className="mt-0.5 text-accent" /> +243 990 486 561</li>
           </ul>
         </div>
 

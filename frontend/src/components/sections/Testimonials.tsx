@@ -4,9 +4,8 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { SectionHeading } from "../ui-blocks/SectionHeading";
 
 const items = [
-  { name: "Dr. Mwamba", role: "Directeur, Hôpital Général de Kisantu", quote: "Samasoft a transformé notre gestion hospitalière. Le dossier médical électronique est devenu indispensable." },
-  { name: "Mme Lukeni", role: "Directrice académique", quote: "La plateforme de gestion académique nous fait gagner un temps précieux et améliore l'expérience étudiante." },
-  { name: "M. Kalala", role: "CEO, Champions Motor", quote: "Une équipe à l'écoute, des livraisons à temps et une solution qui dépasse nos attentes." },
+  { name: "Dr. Kajingulu", role: "Médecin Directeur, Hôpital Saint Joseph de Kinshasa", quote: "Samasoft a transformé notre gestion hospitalière. Le dossier médical électronique est devenu indispensable." },
+  { name: "M. Amisi", role: "CEO, ALL Motor", quote: "Une équipe à l'écoute, des livraisons à temps et une solution qui dépasse nos attentes." },
 ];
 
 export function Testimonials() {
