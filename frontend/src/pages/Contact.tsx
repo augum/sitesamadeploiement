@@ -38,8 +38,8 @@ export default function Contact() {
             <h2 className="font-display text-2xl font-bold">Informations</h2>
             {[
               { icon: MapPin, label: "Adresse", value: "Kinshasa, RDC" },
-              { icon: Mail, label: "Email", value: "contact@samasoft.cd" },
-              { icon: Phone, label: "Téléphone", value: "+243 000 000 000" },
+              { icon: Mail, label: "Email", value: "samasoft40@gmail.com" },
+              { icon: Phone, label: "Téléphone", value: "+243 990 586 561" },
             ].map((i) => (
               <div key={i.label} className="flex items-start gap-4 rounded-2xl border border-border bg-card p-5">
                 <div className="grid h-11 w-11 place-items-center rounded-xl bg-accent-gradient text-accent-foreground shadow-glow">
