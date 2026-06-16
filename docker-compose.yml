@@ -1,0 +1,20 @@
+services:
+   samasoftdrc:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: site-sama
+    restart: unless-stopped
+    networks:
+      - traefik-proxy
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.samasoftdrc.rule=Host(`samasoftdrc.org`)
+      - traefik.http.routers.samasoftdrc.entrypoints=websecure
+      - traefik.http.routers.samasoftdrc.tls.certresolver=letsencrypt
+      - traefik.http.services.samasoftdrc.loadbalancer.server.port=80
+networks:
+  internal:
+    driver: bridge
+  traefik-proxy:
+    external: true
