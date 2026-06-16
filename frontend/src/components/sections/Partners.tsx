@@ -7,7 +7,7 @@ export const PARTNERS = [
   { name: "Bdom Kikwit", initials: "BK", url: "#" },
   { name: "Champion Motors", initials: "CM", url: "#" },
   { name: "Hôpital Général de Kisantu", initials: "HGK", url: "#" },
-  { name: "Hôpital Saint joseph de Kinshasa", initials: "HGRSJ", url: "#" },
+  { name: "Hôpital Saint joseph de Kinshasa", initials: "HSJ", url: "#" },
   { name: "Auto All", initials: "AM", url: "#" },
 
 ];
